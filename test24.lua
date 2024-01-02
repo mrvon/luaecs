@@ -1,4 +1,3 @@
-package.cpath = "./?.dll"
 local ecs = require "ecs"
 
 local w = ecs.world()

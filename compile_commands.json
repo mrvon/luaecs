@@ -1,0 +1,128 @@
+[
+    {
+        "arguments": [
+            "gcc",
+            "-c",
+            "-O2",
+            "-Wall",
+            "--shared",
+            "-fPIC",
+            "-DTEST_LUAECS",
+            "-I",
+            "/usr/local/include",
+            "-o",
+            "ecs.so",
+            "ecs_capi.c"
+        ],
+        "directory": "/home/dennis/luaecs",
+        "file": "ecs_capi.c"
+    },
+    {
+        "arguments": [
+            "gcc",
+            "-c",
+            "-O2",
+            "-Wall",
+            "--shared",
+            "-fPIC",
+            "-DTEST_LUAECS",
+            "-I",
+            "/usr/local/include",
+            "-o",
+            "ecs.so",
+            "ecs_template.c"
+        ],
+        "directory": "/home/dennis/luaecs",
+        "file": "ecs_template.c"
+    },
+    {
+        "arguments": [
+            "gcc",
+            "-c",
+            "-O2",
+            "-Wall",
+            "--shared",
+            "-fPIC",
+            "-DTEST_LUAECS",
+            "-I",
+            "/usr/local/include",
+            "-o",
+            "ecs.so",
+            "luaecs.c"
+        ],
+        "directory": "/home/dennis/luaecs",
+        "file": "luaecs.c"
+    },
+    {
+        "arguments": [
+            "gcc",
+            "-c",
+            "-O2",
+            "-Wall",
+            "--shared",
+            "-fPIC",
+            "-DTEST_LUAECS",
+            "-I",
+            "/usr/local/include",
+            "-o",
+            "ecs.so",
+            "ecs_entityid.c"
+        ],
+        "directory": "/home/dennis/luaecs",
+        "file": "ecs_entityid.c"
+    },
+    {
+        "arguments": [
+            "gcc",
+            "-c",
+            "-O2",
+            "-Wall",
+            "--shared",
+            "-fPIC",
+            "-DTEST_LUAECS",
+            "-I",
+            "/usr/local/include",
+            "-o",
+            "ecs.so",
+            "ecs_cache.c"
+        ],
+        "directory": "/home/dennis/luaecs",
+        "file": "ecs_cache.c"
+    },
+    {
+        "arguments": [
+            "gcc",
+            "-c",
+            "-O2",
+            "-Wall",
+            "--shared",
+            "-fPIC",
+            "-DTEST_LUAECS",
+            "-I",
+            "/usr/local/include",
+            "-o",
+            "ecs.so",
+            "ecs_persistence.c"
+        ],
+        "directory": "/home/dennis/luaecs",
+        "file": "ecs_persistence.c"
+    },
+    {
+        "arguments": [
+            "gcc",
+            "-c",
+            "-O2",
+            "-Wall",
+            "--shared",
+            "-fPIC",
+            "-DTEST_LUAECS",
+            "-I",
+            "/usr/local/include",
+            "-o",
+            "ecs.so",
+            "ecs_group.c"
+        ],
+        "directory": "/home/dennis/luaecs",
+        "file": "ecs_group.c"
+    }
+]
